@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clickable="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/drawerlayout"
+        android:gravity="center"
+        android:clickable="true">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:textColor="@color/productnamecolor"
+
+        android:paddingTop="10dp"
+        android:text="hai"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:paddingBottom="10dp"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+      android:layout_centerVertical="true"
+        android:id="@+id/drawericon"
+        android:src="@drawable/home"/>
+        </RelativeLayout>
+<!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:layout_below="@+id/drawerlayout"-->
+    <!--android:background="#5cf36e21"/>-->
+</RelativeLayout>

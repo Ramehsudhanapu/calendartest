@@ -1,0 +1,131 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="MyMaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/register</item>
+        <item name="android:statusBarColor">#1A56B6</item>
+    </style>
+
+    <style name="EditTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/register</item>
+        <item name="android:statusBarColor">#e64a19</item>
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#194C5F</item>
+        <item name="colorAccent">#40000000</item>
+        <item name="drawerArrowStyle">@style/WhiteDrawerIconStyle</item>
+        <item name="android:statusBarColor">#e64a19</item>
+        <item name="android:textColorHighlight">@color/red</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="WhiteDrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">#000000</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="TabText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+    <style name="StyledDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="MyDarkToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="popupTheme">@style/PopupMenuStyle</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="PopupMenuStyle" parent="android:Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:icon">@color/black</item>
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionMenuTextColor">#ffffff</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:statusBarColor">#1A56B6</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorHighlight">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="myPopupMenuTextAppearanceSmall" parent="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small" tools:ignore="NewApi">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="myPopupMenuTextAppearanceLarge" parent="@android:style/TextAppearance.DeviceDefault.Widget.PopupMenu.Large" tools:ignore="NewApi">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="AppTheme2" parent="android:Theme.Light">
+        <item name="android:popupMenuStyle">@style/PopupMenu1</item>
+    </style>
+
+    <style name="PopupMenu1" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.MyApp.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <!--<style name="Base.Widget.Design.TabLayout" parent="android:Widget">-->
+    <!--<item name="tabBackground">@drawable/tab_background</item>-->
+    <!--</style>-->
+
+
+    <style name="MyAppTheme" parent="Theme.AppCompat" />
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/windowBackground</item>
+    </style>
+
+    <style name="MyMaterialTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MyMaterialTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyAlertDialogTheme" parent="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="windowFixedWidthMajor">50%</item>
+        <item name="windowFixedWidthMinor">50%</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
+

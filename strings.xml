@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">SmileyServe</string>
+    <string name="facebook_app_id">1815923971973809</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="nav_item_Home">Home</string>
+    <string name="nav_item_account">Subscriptions </string>
+    <string name="nav_item_transactions">Transactions</string>
+    <string name="nav_item_login">Login</string>
+    <string name="nav_item_profile">Profile</string>
+    <string name="nav_item_faq">FAQs</string>
+    <string name="nav_item_contactus">Contact Us</string>
+    <string name="nav_item_Supportus">Support Us</string>
+    <string name="nav_item_shareapp">Share App</string>
+    <string name="nav_item_Logout">Signout</string>
+    <string name="prompt_email">Email or Phone Number</string>
+    <string name="prompt_password">Password</string>
+    <string name="signup">Sign Up ?</string>
+    <string name="error_incorrect_password">Email address is invalid</string>
+    <string name="error_invalid_email">Email address is invalid</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="signin">Already have account? Login</string>
+    <string name="Confirmpassword">Confirm Password</string>
+    <string name="errormessage">Error message Here</string>
+    <string name="prompt_name">Name</string>
+    <string name="date">Start Date</string>
+    <string name="nav_subscription">My Subscriptions</string>
+    <string name="nav_item_calender">My Calendar</string>
+    <string name="enddate">End Date</string>
+    <string name="nav_item_smilycash">My Transactions</string>
+    <string name="tittle_mysubsriptions">My Subscriptions</string>
+    <string name="prompt_contactemail">Email ID</string>
+    <string name="error_invalid_mobile">Invalid Mobile Number</string>
+    <string name="error_invalid_confirm">Confrim Password not match</string>
+    <string name="mandatoryfiled">Please fill all mandatory fields</string>
+    <string name="confirmmobile">"Confirm password does not match"</string>
+    <string name="passwordvalidation">Password should be minimum 6 characters</string>
+    <string name="emailvalidation">Invalid email</string>
+    <string name="mobilevalidation">Invalid mobile number</string>
+    <string name="prompt_username">Name</string>
+    <string name="sucessfully">Successfully logged in</string>
+    <string name="validateforbothemailandmobile">Please enter Correct Email or  Mobile format</string>
+    <string name="internetmessage">Internet is unavailable!Check  your Internet Connection!!!</string>
+    <string name="prompt_emailaddress">Email address or Phone Number</string>
+    <string name="register_emailaddress">Email address</string>
+    <string name="termsandconditions">"Accept Terms and Conditions"</string>
+    <string name="product">Products</string>
+    <string name="Subscribe">Order</string>
+    <string name="name">Name</string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="emailid">Emai ID</string>
+    <string name="flotnuber">Flat No</string>
+    <string name="address">Apartment</string>
+    <string name="edit">Edit</string>
+    <string name="update">Save</string>
+    <string name="Commingtomorrow">Coming Tomorrow</string>
+    <string name="cart">Cart</string>
+    <string name="confirmdvalidation">confirm password should be minimum 6 characters</string>
+    <string name="showpassword">Show Password</string>
+    <string name="btn_logout_from_google">Logout </string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="editsubscribe">Edit Subscribe</string>
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_Home</item>
+        <item>@string/nav_item_profile</item>
+        <item>@string/nav_subscription</item>
+        <item>@string/nav_item_calender</item>
+        <item>@string/nav_item_smilycash</item>
+        <!--<item>@string/nav_item_transactions</item>-->
+        <item>@string/nav_item_faq</item>
+        <item>@string/nav_item_contactus</item>
+        <item>@string/nav_item_Logout</item>
+    </string-array>
+    <string-array name="nav_home_labels">
+        <item>@string/nav_item_Home</item>
+        <item>@string/nav_item_login</item>
+        <!--<item>@string/nav_item_profile</item>-->
+        <!--<item>@string/nav_subscription</item>-->
+        <!--<item>@string/nav_item_calender</item>-->
+        <!--<item>@string/nav_item_smilycash</item>-->
+        <!--<item>@string/nav_item_transactions</item>-->
+        <!--<item>@string/nav_item_faq</item>-->
+        <!--<item>@string/nav_item_contactus</item>-->
+        <!--<item>@string/nav_item_Logout</item>-->
+    </string-array>
+    <string name="country_prompt">Choose a country</string>
+    <string name="entername">Please enter your name at least 3 characters</string>
+    <string name="forgottext">Please enter your mobile number  below to reset your password</string>
+    <string name="forgotemail">Enter your mobile number</string>
+    <string name="subcribeconfirmationmesage">please pay below amount to confirm your desired subscription.</string>
+    <string name="nameconditions">ABCDEFGHIJKLMNOPQRSTVUWWXYZabcdefghijklmnopqrstuvwxyz0123456789, </string>
+    <string name="sunday_text">Sun</string>
+    <string name="monday_text">Mon</string>
+    <string name="tuesday_text">Tue</string>
+    <string name="wednesday_text">Wed</string>
+    <string name="thursday_text">Thu</string>
+    <string name="friday_text">Fri</string>
+    <string name="saturday_text">Sat</string>
+    <string name="no_events">No events</string>
+    <string name="invalid_attribute">Failed to create Calendar,\n\n invalid value of Attributes!,\n Please review &amp; try again!</string>
+    <string name="invalid_count">Failed to create Calendar,\n\n invalid eventCount,\n Please enter between 1 to 3</string>
+    <string name="pincode">Pincode</string>
+    <string name="aftersplashscreen">We deliver Milk,Curd,Eggs,BreakFast and More to your doorstep early morning  before 8 A.M</string>
+    <string name="Surving">Currently We are Serving \n @MIYAPUR,Hyderabad.</string>
+    <string name="Enterguset">Enter as Guest</string>
+    <string name="enteryourotp">Please Enter OTP</string>
+    <string name="forgotpasswordtitttle">Forgot Password</string>
+    <string name="updatedprofile">Update Profile</string>
+    <string name="removeall">Remove all</string>
+    <string name="review">Review</string>
+    <string name="usesmileycash">Use smiley cash</string>
+    <string name="extracharge">(2% payment gateway charges)</string>
+    <string name="continueshopping">Continue Shopping</string>
+    <string name="pay">Net Amount Pay</string>
+    <string-array name="drawericons">
+        <item>@drawable/home</item>
+        <item>@drawable/profile</item>
+        <item>@drawable/subscription</item>
+        <item>@drawable/calenmder</item>
+        <item>@drawable/smileycash</item>
+        <item>@drawable/transaction</item>
+        <item>@drawable/faqs</item>
+        <item>@drawable/call</item>
+        <item>@drawable/signout</item>
+    </string-array>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_smiley_cash">SmileyCashActivity</string>
+    <string name="Mytransaction">My Transactions</string>
+    <string name="chooseyourapartment">Choose Your Apartment</string>
+    <string name="title_activity_termsand_conditions">TermsandConditionsActivity</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="reiew">Review Orders</string>
+</resources>
